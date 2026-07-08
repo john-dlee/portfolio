@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# others
+.menu_items_raw.json
+menu-items-prices.csv
+ROADMAP.md
+supabase/.temp/
