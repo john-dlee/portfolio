@@ -12,29 +12,18 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: 'Food Retail Pick-Up Ordering System',
+    name: 'Sushi Pickup Ordering Web App',
     overview:
-      'A full-stack web application designed to automate customer ordering and workflow management for a commercial food outlet. Handles the entire lifecycle of an order from customer placement to merchant fulfillment.',
-    details: [
-      'Real-Time State Management: Implemented real-time order state transitions using Supabase (PostgreSQL) replication, ensuring the kitchen dashboard updates instantly without page refreshes.',
-      'Database Design: Structured a relational database schema to manage menu availability, customer inputs, and order history with strict data integrity constraints.',
-      'Frontend Optimization: Utilized Next.js for efficient routing and component rendering, leveraging Tailwind CSS to ensure a mobile-first, responsive interface.',
-      'Engineering Challenges Solved: Synchronized live merchant views with incoming database changes via real-time listeners and enforced data validation schemas.'
-    ],
-    tags: ['Next.js', 'React', 'Supabase', 'PostgreSQL', 'Tailwind CSS'],
+      'Developed and deployed a full-stack pickup ordering system for a sushi shop that supports the complete customer-to-kitchen workflow, including checkout, payment confirmation, order fulfillment, and fallback operations for delayed or failed webhooks.',
+    tags: ['Next.js', 'TypeScript', 'React', 'Supabase (PostgreSQL)', 'Stripe', 'Vercel', 'Tailwind CSS'],
     github: 'https://github.com', 
     live: "https://pickup-order-app.vercel.app/menu",
   },
   {
-    name: 'AWS Minecraft Server Controller',
+    name: 'AWS Minecraft Server Discord Bot',
     overview:
-      'A Discord bot integrated with AWS infrastructure to remotely manage and monitor the lifecycle of a dedicated game server instance.',
-    details: [
-      'Instance Orchestration: Deployed and configured a cloud server environment hosted on an Amazon EC2 instance.',
-      'API Integration: Developed a functional Discord bot that interfaces directly with the AWS SDK to handle programmatic start, stop, and status retrieval commands.',
-      'Resource Management: Implemented manual and automated lifecycle checks to manage operational uptime and control compute costs effectively.'
-    ],
-    tags: ['AWS EC2', 'Node.js', 'Discord API', 'Cloud Computing'],
+      'A Discord bot integrated with AWS infrastructure to remotely manage and monitor the lifecycle of a dedicated Minecraft server instance.',
+    tags: ['AWS EC2', 'Node.js', 'Discord API', 'AWS SDK'],
     github: 'https://github.com',
     live: "https://pickup-order-app.vercel.app/menu",
   }
