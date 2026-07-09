@@ -4,7 +4,6 @@ import { SiGithub } from "react-icons/si";
 type Project = {
   name: string;
   overview: string;
-  details: string[];
   tags: string[];
   github?: string;
   live?: string;
