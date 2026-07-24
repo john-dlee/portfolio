@@ -15,16 +15,15 @@ const projects: Project[] = [
     overview:
       'Developed and deployed a full-stack pickup ordering system for a sushi shop that supports the complete customer-to-kitchen workflow, including checkout, payment confirmation, order fulfillment, and fallback operations for delayed or failed webhooks.',
     tags: ['Next.js', 'TypeScript', 'React', 'Supabase (PostgreSQL)', 'Stripe', 'Vercel', 'Tailwind CSS'],
-    github: 'https://github.com', 
-    live: "https://pickup-order-app.vercel.app/menu",
+    github: 'https://github.com/john-dlee/pickup-order-app', 
+    live: "https://sushisapporo.com.au",
   },
   {
     name: 'AWS Minecraft Server Discord Bot',
     overview:
       'A Discord bot integrated with AWS infrastructure to remotely manage and monitor the lifecycle of a dedicated Minecraft server instance.',
     tags: ['AWS EC2', 'Node.js', 'Discord API', 'AWS SDK'],
-    github: 'https://github.com',
-    live: "https://pickup-order-app.vercel.app/menu",
+    github: 'https://github.com/john-dlee/discord-minecraft-server-bot',
   }
 ]
 
