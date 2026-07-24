@@ -60,7 +60,7 @@ export default function Header() {
         </div>
       </div>
       <p className="text-sm leading-relaxed text-muted-foreground">
-        UNSW Computer Science graduate. Currently developing a full-stack, 
+        UNSW Computer Science graduate. Recently shipped a full-stack, 
         mobile-first web application for a local sushi takeaway store using
         Next.js, React, and Supabase to sync customer orders with a live kitchen
         dashboard in real time.
